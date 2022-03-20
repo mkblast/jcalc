@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.container {
+  flex-grow: 1;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 9px;
+  height: 5in;
+  width: 5in;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.screen {
+  margin-top: 3%;
+  background-color: black;
+  height: 20%;
+}
+
+.num {
+  display: grid;
+  height: 50%;
+  padding: 10px;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+  gap: 8px;
+}
+
+.number {
+  background-color: white;
+  border-radius: 9px;
+  border: 0px;
+}
