@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>Calc</title>
   <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
   <div class="container">
-    <div class="screen"></div>
-    <div class="num">
-      <button class="number">7</button>
-      <button class="number">8</button>
-      <button class="number">9</button>
-      <button class="number">4</button>
-      <button class="number">5</button>
-      <button class="number">6</button>
-      <button class="number">1</button>
-      <button class="number">2</button>
-      <button class="number">3</button>
-      <button class="number">0</button>
+    <div class="screen">
+      <div class="top"></div>
+      <div class="typing"></div>
+    </div>
+    <div class="opt">
+      <button class="btn symbol op">%</button>
+      <button class="btn symbol reset">C</button>
+      <button class="btn symbol del">DEL</button>
+      <button class="btn symbol op">/</button>
+      <button class="btn num">7</button>
+      <button class="btn num">8</button>
+      <button class="btn num">9</button>
+      <button class="btn symbol op">x</button>
+      <button class="btn num">4</button>
+      <button class="btn num">5</button>
+      <button class="btn num">6</button>
+      <button class="btn symbol op">-</button>
+      <button class="btn num">1</button>
+      <button class="btn num">2</button>
+      <button class="btn num">3</button>
+      <button class="btn symbol op">+</button>
+      <button class="btn num last">0</button>
+      <button class="btn num">.</button>
+      <button class="btn eq">=</button>
     </div>
   </div>
 </body>
