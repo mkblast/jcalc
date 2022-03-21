@@ -82,6 +82,7 @@ function equal() {
         break;
       }
     }
+    sign = undefined;
     topscreen.textContent = '';
     done = true;
   })
